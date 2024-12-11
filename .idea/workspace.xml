@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="060d1e49-f7e7-4bdb-85e4-eefbcf7575d7" name="Changes" comment="start">
-      <change afterPath="$PROJECT_DIR$/LU_release_ver2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list_of_list_with_lu_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="060d1e49-f7e7-4bdb-85e4-eefbcf7575d7" name="Changes" comment="first versions of scripts">
+      <change afterPath="$PROJECT_DIR$/LU_release_by_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LU_release_ver1.py" beforeDir="false" afterPath="$PROJECT_DIR$/LU_release_ver1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LU_release_ver2.py" beforeDir="false" afterPath="$PROJECT_DIR$/LU_release_ver2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_of_list_with_lu_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/list_of_list_with_lu_generator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2pzwZT6qqLNZvgkcdTGe9dFW7QM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.LU_release_by_list.executor": "Run",
     "Python.LU_release_ver1.executor": "Run",
     "Python.LU_release_ver2.executor": "Run",
     "Python.list_of_list_with_lu_generator.executor": "Run",
@@ -68,11 +68,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733782431893</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first versions of scripts">
+      <option name="closed" value="true" />
+      <created>1733802107746</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733802107746</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="first versions of scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="first versions of scripts" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LU_release_ver2.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

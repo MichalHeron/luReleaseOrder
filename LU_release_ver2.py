@@ -117,3 +117,4 @@ while orders_amount_on_begin - count_finished_orders() > 0:
     lu_amount_remaining = lu_set_length
 
     print(lu_amount_on_begin - lu_amount_remaining, count_open_orders, count_finished_orders(), count_open_orders - len(empty_lists))
+print(queue)
