@@ -10,6 +10,7 @@ point = 0
 add_point_for_not_belong_to_order = 1
 minus_point_for_belong_to_order = 3
 minus_extra_point_for_last_lu_in_order = 5
+set_method_of_picking_first_lu = False  # if True the logic to pick is original if False is by list
 
 
 def create_lu_list(batch):
@@ -61,6 +62,11 @@ def first_lu_in_queue(batch, lu_list_set):
     return first_lu
 
 
+def first_lu_in_queue_by_list(batch_list):
+    return batch_list[0][0]
+
+
+
 def get_next_lu(): #generate next lu to queue - it searching LU which start the lowest amount of orders and which is part of started orders
     point = 10000
     lu_with_lowest_points = "WAN-000000"
@@ -82,13 +88,16 @@ def get_next_lu(): #generate next lu to queue - it searching LU which start the 
             lu_with_lowest_points = lu
     return lu_with_lowest_points
 
-set_of_open_orders = get_indicates_of_order_containing_lu(batch, first_lu_in_queue(batch, lu_list_set))
-# set_of_open_orders = set_of_open_orders.union(get_indicates_of_order_containing_lu(batch, "WAN-033529"))
+
+if(set_method_of_picking_first_lu):
+    set_of_open_orders = get_indicates_of_order_containing_lu(batch, first_lu_in_queue(batch, lu_list_set))
+    queue.append(first_lu_in_queue(batch, lu_list_set))
+if(not set_method_of_picking_first_lu):
+    set_of_open_orders = get_indicates_of_order_containing_lu(batch, first_lu_in_queue_by_list(batch))
+    queue.append(first_lu_in_queue_by_list(batch))
+
 
 lu_amount_remaining = lu_set_length - 1
-empty_lists = [sublist for sublist in batch if len(sublist) == 0]
-print("lu on sorter | opened orders at all | orders ready to pack | opened orders not ready to pack")
-queue.append(first_lu_in_queue(batch, lu_list_set))
 count_open_orders = len(set_of_open_orders)
 firstString = "1 "
 firstString += str(count_open_orders)
@@ -97,10 +106,12 @@ batch = delete_lu_from_lists(batch, queue[-1])
 lu_list_set.remove(queue[-1])
 firstString += str(count_finished_orders())
 firstString += " "
+empty_lists = [sublist for sublist in batch if len(sublist) == 0]
 firstString += str(count_open_orders - len(empty_lists))
+print("lu on sorter | opened orders at all | orders ready to pack | opened orders not ready to pack")
+print(empty_lists)
 print("0 0 0 0")
 print(firstString)
-
 
 while orders_amount_on_begin - count_finished_orders() > 0:
     queue.append(get_next_lu())
@@ -115,6 +126,6 @@ while orders_amount_on_begin - count_finished_orders() > 0:
     lu_set_length = len(lu_list_set)
     empty_lists = [sublist for sublist in batch if len(sublist) == 0]
     lu_amount_remaining = lu_set_length
-
-    print(lu_amount_on_begin - lu_amount_remaining, count_open_orders, count_finished_orders(), count_open_orders - len(empty_lists))
+    print(lu_amount_on_begin - lu_amount_remaining, count_open_orders, count_finished_orders(),
+          count_open_orders - len(empty_lists))
 print(queue)
