@@ -7,7 +7,6 @@
     <list default="true" id="060d1e49-f7e7-4bdb-85e4-eefbcf7575d7" name="Changes" comment="another version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LU_release_ver1.py" beforeDir="false" afterPath="$PROJECT_DIR$/LU_release_ver1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LU_release_ver2.py" beforeDir="false" afterPath="$PROJECT_DIR$/LU_release_ver2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733884775428</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="another version">
+      <option name="closed" value="true" />
+      <created>1738099576458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738099576458</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

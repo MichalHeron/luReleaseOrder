@@ -40,14 +40,12 @@ while len(batch) > 0:
 
     if first_lu_in_queue:
         min_list = [sublist for sublist in batch if len(sublist) == min(len(sublist) for sublist in batch)]
-        print(min_list)
         lu_min_list = []
         lu_batch_list = []
         for list_lu in min_list:
             for lu in list_lu:
                 lu_min_list.append(lu)
         lu_min_list = list(set(lu_min_list))
-        print(lu_min_list)
 
         for batch_lu in batch:
             for lu in batch_lu:
