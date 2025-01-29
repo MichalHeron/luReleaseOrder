@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="060d1e49-f7e7-4bdb-85e4-eefbcf7575d7" name="Changes" comment="another version">
+      <change afterPath="$PROJECT_DIR$/LU_release_ver1.2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LU_release_ver1.py" beforeDir="false" afterPath="$PROJECT_DIR$/LU_release_ver1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LU_release_ver2.py" beforeDir="false" afterPath="$PROJECT_DIR$/LU_release_ver2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_of_list_with_lu_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/list_of_list_with_lu_generator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,17 +35,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.LU_release_by_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LU_release_ver1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LU_release_ver2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.list_of_list_with_lu_generator.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.LU_release_by_list.executor": "Run",
+    "Python.LU_release_ver1.2.executor": "Run",
+    "Python.LU_release_ver1.executor": "Run",
+    "Python.LU_release_ver2.executor": "Run",
+    "Python.list_of_list_with_lu_generator.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/mczaplewski/PycharmProjects/luReleaseOrder"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mczaplewski\PycharmProjects\luReleaseOrder" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.LU_release_ver1.2">
+    <configuration name="LU_release_ver1.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="luReleaseOrder" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LU_release_ver1.2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="LU_release_ver2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="luReleaseOrder" />
       <option name="ENV_FILES" value="" />
@@ -67,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LU_release_ver1.2" />
         <item itemvalue="Python.LU_release_ver2" />
       </list>
     </recent_temporary>
@@ -119,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738099576458</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="another version">
+      <option name="closed" value="true" />
+      <created>1738109051092</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738109051092</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

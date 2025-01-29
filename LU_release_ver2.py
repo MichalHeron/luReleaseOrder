@@ -23,7 +23,6 @@ def create_lu_list(batch):
 lu_list_set = create_lu_list(batch)
 lu_set_length = len(lu_list_set)
 lu_amount_on_begin = lu_set_length
-print(lu_amount_on_begin)
 
 
 def count_finished_orders():
