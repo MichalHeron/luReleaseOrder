@@ -62,7 +62,7 @@ def first_lu_in_queue(batch_var, lu_list_set_var):
             first_lu = lu
     return first_lu
 
-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 def search_lu_which_belong_to_the_less_orders_at_all(lu_list_set, batch_list):
     lu_min_list_with_lowest_amount_of_orders = []
     count = 99999
